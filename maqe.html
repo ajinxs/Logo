@@ -1,0 +1,157 @@
+<DOCTYPE! html>
+<html>
+	<head>
+		<meta charset="htf-8"/>
+		<title>MAQE Project</title>
+	</head>
+
+	<style type="text/css">
+
+	/*Code for outside box*/
+	div
+	{
+		background: #4CB5F2;
+		background: linear-gradient(#64CDDE, lightblue);
+
+		border:20px;
+
+		/*width: 300px;*/
+		/*height: 30px;*/
+		padding: 10px;
+		margin: 20px;
+	}
+
+	#first
+	{
+		border-radius: 30px;
+		background: linear-gradient-top(#64CDDE, lightblue);
+
+		padding: 5px;
+		width: 500px;
+		height: 530px;
+
+		border-style: double;
+		border-color:white;
+	}
+
+	div.absoluteM
+	{
+		background: #F0F9F8;
+		border-radius:5px;
+
+		top:90px;
+		left:80px;
+		width:70px;
+		height:70px;
+		position:absolute;
+		padding :50px;
+
+		font-size:70px;
+		font-absolute:center;
+
+		text-shadow: 1px 1px 1px #888888;
+		box-shadow: inset 0 0 20px #707272;
+	}
+
+	div.absoluteA
+	{
+		background: #F0F9F8;
+		border-radius:5px;
+
+		position:absolute;
+		padding:50px;
+		bottom:-20px;
+		left: 210px;
+		width:70px;
+		height:70px;
+
+		font-size:70px;
+		font-absolute:center;
+
+		text-shadow: 1px 1px 1px #888888;
+		box-shadow: inset 0 0 20px #707272;
+	}
+
+	div.absoluteQ
+	{
+		background: #F0F9F8;
+		border-radius:5px;
+
+		position:absolute;
+		padding:50px;
+
+		top:220px;
+		right:210px;
+		width:70px;
+		height:70px;
+
+		font-size:70px;
+		font-absolute:center;
+
+		text-shadow: 1px 1px 1px #888888;
+		box-shadow: inset 0 0 20px #707272;
+	}
+
+	div.absoluteE
+	{
+		background: #F0F9F8;
+		border-radius:5px;
+
+		position:absolute;
+		padding:50px;
+
+		bottom:-20px;
+		left:210px;
+		width:70px;
+		height:70px;
+
+		font-size:70px;
+		font-absolute:center;
+
+		text-shadow: 1px 1px 1px #888888;
+		box-shadow: inset 0 0 20px #707272;
+	}
+
+	/*Code for the box which is in the centre*/
+	div.bluebox
+	{
+		margin:-70px;
+		margin-right: 40px;
+		margin-left:-200px;
+		margin-top: -30px;
+
+		width:210px;
+		height:210px;
+
+		background:transparent;
+		background-color:#F0F9F8;
+		background-position:center;
+		border: 1px lightblue;
+
+		opacity: 0.2;
+		filter: alpha(opacity=10);
+	}
+
+	/*color and font for alphabet*/
+	body
+	{
+		color:#4CB5F2;
+		font-family:"Arial";
+	}
+}
+</style>
+
+<body>
+	<div id="first">
+		<div class="absoluteM">A
+			<div class="absoluteA">B
+				<div class="bluebox"></div>
+					<div class="absoluteQ">C
+						<div class="absoluteE">D
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
